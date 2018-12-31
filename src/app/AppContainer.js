@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import './App.css';
+import './AppContainer.css';
 import {store} from './store/store';
-import {changeName} from './actions/changeName';
+import {changeName} from './duck/actions';
 
 
-class App extends Component {
+class AppContainer extends Component {
 
   constructor(props){
     super(props);
@@ -41,4 +41,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default AppContainer;
